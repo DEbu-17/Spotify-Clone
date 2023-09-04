@@ -321,7 +321,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
- 
+  
 }
 .left-control {
   width: 14vw;
@@ -382,8 +382,8 @@ a {
      
   }
   .card-container{
-    margin-right: 160px;
-  
+   margin-right: 170px;
+   
   }
   .my-box{
      white-space: nowrap;
@@ -399,4 +399,8 @@ a {
   .center-control{
     width: 100%;
   }
+ 
+ .card-body{
+  font-size: 10px;
+ }
 }
