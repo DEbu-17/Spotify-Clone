@@ -420,3 +420,40 @@ table td {
   margin-right: 20px;
   margin-top: 20px;
 }
+@media screen and (max-width: 768px) {
+  .left-container {
+    display: none;
+  }
+  .head-section{
+    display: none;
+  }
+  .my-cards{
+    white-space: nowrap;
+    overflow-x:scroll ;
+     
+  }
+  .card-container{
+    margin-right: 160px;
+  
+  }
+  .my-box{
+     white-space: nowrap;
+    overflow-x:scroll ;
+  }
+ 
+  .left-control{
+   display: none;
+  }
+  .right-control{
+    display: none;
+  }
+  .center-control{
+    width: 100%;
+  }
+ .l-songs{
+ font-size: 40px;
+ }
+ .fav-img{
+  margin-top: 40px;
+ }
+}
